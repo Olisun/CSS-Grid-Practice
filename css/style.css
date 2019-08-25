@@ -1,148 +1,154 @@
   body {
-  background-color: rgba(15, 226, 160, 1);
-}
-
-.parentMain {
-  display: grid;
-  grid-template-columns: 100px 1fr 1fr 200px;
-  grid-template-rows: 75px 1fr 75px;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  height: 100vh;
-}
-
-.div1Main {
-  grid-area: 1 / 1 / 2 / 5;
-  border: 5px solid white;
-  outline: 5px ridge rgba(74, 0, 140, 1);
-}
-
-.div2Main {
-  grid-area: 2 / 1 / 3 / 2;
-  border: 5px solid white;
-  outline: 5px ridge rgba(74, 0, 140, 1);
-}
-
-.div3Main {
-  grid-area: 2 / 2 / 3 / 4;
-  border: 5px solid white;
-  outline: 5px ridge rgba(74, 0, 140, 1);
-}
-
-.div4Main {
-  grid-area: 2 / 4 / 3 / 5;
-  border: 5px solid white;
-  outline: 5px ridge rgba(74, 0, 140, 1);
-}
-
-.div5Main {
-  grid-area: 3 / 1 / 4 / 5;
-  border: 5px solid white;
-  outline: 5px ridge rgba(74, 0, 140, 1);
-}
-
-.parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  height: 100vh;
-  text-align: center;
-}
-
-#div1 {
-  grid-area: 1 / 1 / 2 / 2;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div2 {
-  grid-area: 1 / 2 / 2 / 3;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div3 {
-  grid-area: 1 / 3 / 2 / 4;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div4 {
-  grid-area: 2 / 1 / 3 / 2;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div5 {
-  grid-area: 2 / 2 / 3 / 3;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div6 {
-  grid-area: 2 / 3 / 3 / 4;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div7 {
-  grid-area: 3 / 1 / 4 / 2;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div8 {
-  grid-area: 3 / 2 / 4 / 3;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-#div9 {
-  grid-area: 3 / 3 / 4 / 4;
-  height: 100px;
-  width: 100px;
-  background-color: rgba(255, 220, 22, 1);
-  margin: auto;
-  border: 10px solid white;
-  outline: 14px ridge rgba(255, 0, 51, 1);
-}
-
-
-/* $color1: rgba(74, 0, 140, 1);
+    background-color: rgba(15, 226, 160, 1);
+  }
+  
+  .parentMain {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 200px;
+    grid-template-rows: 75px 1fr 75px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 100vh;
+  }
+  
+  .div1Main {
+    grid-area: 1 / 1 / 2 / 5;
+    border: 5px solid white;
+    outline: 5px ridge rgba(74, 0, 140, 1);
+  }
+  
+  .div2Main {
+    grid-area: 2 / 1 / 3 / 2;
+    border: 5px solid white;
+    outline: 5px ridge rgba(74, 0, 140, 1);
+  }
+  
+  .div3Main {
+    grid-area: 2 / 2 / 3 / 4;
+    border: 5px solid white;
+    outline: 5px ridge rgba(74, 0, 140, 1);
+  }
+  
+  .div4Main {
+    grid-area: 2 / 4 / 3 / 5;
+    border: 5px solid white;
+    outline: 5px ridge rgba(74, 0, 140, 1);
+  }
+  
+  .div5Main {
+    grid-area: 3 / 1 / 4 / 5;
+    border: 5px solid white;
+    outline: 5px ridge rgba(74, 0, 140, 1);
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  #div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div4 {
+    grid-area: 2 / 1 / 3 / 2;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div5 {
+    grid-area: 2 / 2 / 3 / 3;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div6 {
+    grid-area: 2 / 3 / 3 / 4;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div7 {
+    grid-area: 3 / 1 / 4 / 2;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div8 {
+    grid-area: 3 / 2 / 4 / 3;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #div9 {
+    grid-area: 3 / 3 / 4 / 4;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 220, 22, 1);
+    margin: auto;
+    border: 10px solid white;
+    outline: 14px ridge rgba(255, 0, 51, 1);
+  }
+  
+  #header, #sideBar, #main, #sideStuff, #footer {
+    text-align: center;
+  }
+  
+  #header {
+    font-size: 32px;
+  }
+  /* $color1: rgba(74, 0, 140, 1);
 $color2: rgba(15, 226, 160, 1);
 $color3: rgba(255, 0, 51, 1);
 $color4: rgba(255, 220, 22, 1);
